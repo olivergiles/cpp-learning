@@ -8,5 +8,5 @@ int main()
   std::cin >> val1 >> val2;
   for (int i = val1; i<=val2; ++i)
     sum += i;
-  std::cout << "The sum between them is " << sum;
+  std::cout << "The sum between them is " << sum << std::endl;
 }
