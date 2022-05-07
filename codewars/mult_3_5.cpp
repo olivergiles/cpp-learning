@@ -6,12 +6,11 @@ int solution(int number)
     return 0;
   }
   int value = 0;
-  for (int i = 0; i <= number; i++){
+  for (int i = 0; i < number; i++){
     if ((i % 3) == 0)
       value += i;
     else if ((i % 5) == 0)
       value += i;
-    std::cout << value << std::endl;
   }
   return value;
 }
