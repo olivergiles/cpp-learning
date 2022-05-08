@@ -3,9 +3,10 @@
 int dontGiveMeFive(int start, int end)
 {
   int count = 0;
-  for (start; start < end; start++){
-    if ((start % 5) != 0);
+  for (start; start <= end; start++){
+    if ((start % 5) != 0){
       count++;
+    }
   }
   return count;
 }
