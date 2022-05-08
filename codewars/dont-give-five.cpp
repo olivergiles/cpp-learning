@@ -2,7 +2,12 @@
 
 int dontGiveMeFive(int start, int end)
 {
-  return 0;
+  int count = 0;
+  for (start; start < end; start++){
+    if ((start % 5) != 0);
+      count++;
+  }
+  return count;
 }
 int main()
 {
